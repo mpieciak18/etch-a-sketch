@@ -22,12 +22,22 @@
     border-color: gray;
     border-style: solid;
     border-width: 1px;
+}
+@media only screen and (max-width: 480px) { 
+  .etch-box {
+      height: 50px;
+      width: 50px;
+    }
+}
+@media (min-width: 481px) {
+  .etch-box {
     height: 100px;
     width: 100px;
+  }
 }
 #below-etch-container {
     text-align: center;
 }
 #reset-button {
-    
+
 }
