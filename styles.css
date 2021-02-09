@@ -30,14 +30,14 @@ html, body {
 }
 @media only screen and (max-width: 480px) { 
   .etch-box {
-      height: 50px;
-      width: 50px;
+      height: 30px;
+      width: 30px;
     }
 }
 @media (min-width: 481px) {
   .etch-box {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
   }
 }
 #below-etch-container {
