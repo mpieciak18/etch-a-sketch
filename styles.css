@@ -1,0 +1,33 @@
+#header {
+    text-align: center;
+    font-size: x-large
+}
+#etch-container {
+    text-align: center;
+}
+#etch-grid {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+.etch-row {
+    display: flex;
+    flex-direction: row;
+}
+.etch-box {
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    height: 100px;
+    width: 100px;
+}
+#below-etch-container {
+    text-align: center;
+}
+#reset-button {
+    
+}
