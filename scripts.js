@@ -35,12 +35,11 @@ function chooseTouchOrHover() {
         for (i = 0; i < etchBoxes.length; i++) {
             etchBoxes[i].addEventListener('mouseover', colorBox);
         };
-        etchGrid.setAttribute('style', 'height: 500px; width: 500px;');
+        etchGrid.setAttribute('style', 'height: 480px; width: 480px;');
     };
 };
 function colorBox(event) {
     let selectedBox = event.target;
-    console.log(event.target);
     let randomRgbValues = selectRandomRgb();
     let randomColor = 'rgb(' + randomRgbValues + ')';
     selectedBox.style.backgroundColor = randomColor;
