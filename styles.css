@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 html, body {
     margin: 0;
     height: 100%;
-    overflow: hidden
+    /* overflow: hidden */
 }
 #header {
     text-align: center;
-    font-size: x-large
+    font-size: xx-large;
+    font-family: 'Arvo', serif;
 }
 #etch-container {
     text-align: center;
@@ -24,25 +26,10 @@ html, body {
 }
 .etch-box {
     background-color: white;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1px;
-}
-@media only screen and (max-width: 480px) { 
-  .etch-box {
-      height: 30px;
-      width: 30px;
-    }
-}
-@media (min-width: 481px) {
-  .etch-box {
-    height: 50px;
-    width: 50px;
-  }
 }
 #below-etch-container {
     text-align: center;
 }
 #reset-button {
-
+    margin-top: 15px;
 }
