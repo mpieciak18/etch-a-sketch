@@ -60,7 +60,11 @@ resetButton.addEventListener('click', resetGrid);
 
 function resetGrid() {
     let userInput = prompt('Resetting the grid.\n\nHow many rows & columns do you want?\n\n');
-    if (Number(userInput) > 200) {
+    if (Number.isNaN(Number(userInput))) {
+        alert('You cannot a non-number value!\n\nTry again.\n\n');
+        resetGrid();
+    }
+    else if (Number(userInput) > 200) {
         alert('You cannot select a value greater than 200!\n\nTry again.\n\n');
         resetGrid();
     }
