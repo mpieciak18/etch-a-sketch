@@ -31,13 +31,11 @@ function chooseTouchOrHover() {
             etchBoxes[i].addEventListener('touchstart', colorBox);
         };
         etchGrid.setAttribute('style', 'height: 300px; width: 300px;');
-        prompt('iOS');
     } else {
         for (i = 0; i < etchBoxes.length; i++) {
             etchBoxes[i].addEventListener('mouseover', colorBox);
         };
         etchGrid.setAttribute('style', 'height: 480px; width: 480px;');
-        prompt('desktop');
     };
 };
 function colorBox(event) {

@@ -2,12 +2,13 @@
 html, body {
     margin: 0;
     height: 100%;
-    overflow: hidden
 }
 #header {
     text-align: center;
     font-size: xx-large;
     font-family: 'Arvo', serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 #etch-container {
     text-align: center;
@@ -32,4 +33,6 @@ html, body {
 }
 #reset-button {
     margin-top: 15px;
+    font-family: 'Arvo', serif;
+    font-size: medium;
 }
